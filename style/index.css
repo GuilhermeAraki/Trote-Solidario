@@ -1,0 +1,55 @@
+:root{
+    --green: #559d46;
+    --blue: #3d1fde;
+    --dark-blue: #00002c;
+    --black: #000000;
+    --button-color: #9bde87;
+    --button-hover: #beffa8;
+    --box-shadow: #8dd0e9;
+}
+body {
+    object-fit: cover;
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    display: flex; /* Usa flexbox para alinhar elementos */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura da página para ocupar toda a tela */
+    background-color: rgb(2, 93, 246);
+}
+.background-img{
+    position: absolute; 
+    z-index: -1;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.container{
+    background-color: rgb(255, 180, 0);
+    border-radius: 15px;
+    box-shadow: 4px 8px;
+    padding: 15px;
+    display: flex; /* Usa flexbox para alinhar elementos */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    flex-direction: column;
+}
+.imagem{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin-top: -50%;
+}
+.botao{
+   background-color: white;
+   color: var(--black);
+   border-style: none;
+   border-radius: 5px;
+   padding: 5px;
+   cursor: pointer; /* mouse vira um ponteiro */
+   transition: all;
+   transition-duration: 800ms;
+}
+/*  criar efeito de passar o mouse no botão*/
+.botao:hover{
+    background-color: rgb(160, 160, 160);
+    box-shadow: 0px 4px var(--dark-blue);
+}
