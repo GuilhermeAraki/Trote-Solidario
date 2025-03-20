@@ -63,3 +63,33 @@ table{
 table tr td{
     padding: 20px;
 }
+tr th{
+    text-align: center;
+}
+.tdEB{
+    color: red;
+}
+.laranja{
+    background-color: orange;
+}
+.preta{
+    color: white;
+    background-color: black;
+}
+.roxa{
+    background-color: purple;
+}
+.verde{
+    background-color: green;
+}
+.vermelha{
+    background-color: red;
+}
+.thead{
+    text-align: center;
+    background-color: navy;
+    color: white;
+}
+.cursoTD{
+    
+}
