@@ -1,9 +1,8 @@
 body{
-    background-image: url();
+    background-color: black;
     font-family: Arial, sans-serif;
     margin: 0; /* espaçamento externo da página */
     padding: 0; /* espaçamento internro da página */
-    background-color: #f4f4f4;
     text-align: center;
 }
 header{
@@ -53,12 +52,52 @@ img{
 .container h2{
     text-align: center;
 }
+.container h3{
+    margin-left: 150px;
+    font-size: x-large;
+}
+.Sublinhado{
+    color: black;
+    font-weight: bold;  
+    text-decoration: underline;
+}
+.txtLaranja{
+    color: orange;
+    font-weight: bold;  
+    font-style: italic;
+}
+.txtPreta{
+    color: black;
+    font-weight: bold;  
+    font-style: italic;
+}
+.txtRoxa{
+    color: purple;
+    font-weight: bold;  
+    font-style: italic;
+}
+.txtVerde{
+    color: green;
+    font-weight: bold;  
+    font-style: italic;
+}
+.txtVermelha{
+    color: red;
+    font-weight: bold;  
+    font-style: italic;
+}
 ol li{
     padding-bottom: 10px;
 }
 table{
     justify-self: center;
     align-items: center;
+}
+.tabela1{
+    margin-top: -80px;
+}
+.tabela2{
+    margin-top: -170px;
 }
 table tr td{
     padding: 20px;
@@ -85,8 +124,53 @@ tr th{
 .vermelha{
     background-color: red;
 }
-.thead{
+.cabecalho{
     text-align: center;
     background-color: navy;
     color: white;
+}
+#fonte{
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    font-style: italic;
+    font-size: small;
+}
+.container-Arrecadacao{
+    width: 75%;
+    margin: 20px auto;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 2px;
+    border-style: solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.infoAdicional{
+    display: flex;
+    justify-content: center;
+   font-style: italic;
+   font-size: small;
+}
+.tabela-container3{
+    display: flex;
+    justify-content: center;
+}
+.tabela3v2{
+    text-align: center;
+}
+.tdLaranja{
+    background-color: orange;   
+}
+.tdPreta{
+    color: white;
+    background-color: black;
+}
+.tdRoxa{
+    background-color: purple;
+}
+.tdVerde{
+    background-color: green;
+}
+.tdVermelha{
+    background-color: red;
 }
