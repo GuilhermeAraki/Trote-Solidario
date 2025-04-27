@@ -151,6 +151,13 @@ tr th{
    font-style: italic;
    font-size: small;
 }
+.tabela-container3{
+    display: flex;
+    justify-content: center;
+}
+.tabela3v2{
+    text-align: center;
+}
 .tdLaranja{
     background-color: orange;   
 }
@@ -167,7 +174,69 @@ tr th{
 .tdVermelha{
     background-color: red;
 }
-.campos{
-  margin-bottom: 15px;
- 
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza tudo no form */
+    gap: 15px;
+    width: 100%;
+    max-width: 600px; /* Limite para não esticar demais */
+    margin: 0 auto; /* Centraliza o form */
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.campos label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+    text-align: center; /* Centraliza o texto dos labels */
+    width: 100%;
+}
+
+.campos input, 
+.campos select {
+    width: 90%; /* Reduz um pouco pra dar um visual bonito */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.campos input:focus, 
+.campos select:focus {
+    border-color: #ff7f50;
+    outline: none;
+}
+
+.campos button {
+    padding: 12px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    width: 50%; /* Botão mais compacto e centralizado */
+}
+
+.campos button:hover {
+    background-color: #ff5722;
+}
+
+#soma {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4caf50;
+    font-size: 1.2rem;
+    text-align: center;
 }
