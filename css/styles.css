@@ -151,13 +151,6 @@ tr th{
    font-style: italic;
    font-size: small;
 }
-.tabela-container3{
-    display: flex;
-    justify-content: center;
-}
-.tabela3v2{
-    text-align: center;
-}
 .tdLaranja{
     background-color: orange;   
 }
